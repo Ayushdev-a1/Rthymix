@@ -1,0 +1,588 @@
+@media screen and (max-width:425px) {
+    .logo {
+        overflow: hidden;
+        width: 8em;
+        border-radius: 50%;
+        height: 7em;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .logo img {
+        width: 100%;
+    }
+
+    .login {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        height: 100%;
+        justify-content: center;
+        background-color: #121212;
+        color: #E0E0E0;
+        gap: 12px;
+    }
+
+    .heading {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .heading h1 {
+        margin-bottom: -13px;
+    }
+
+    .fields {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+        justify-content: center;
+        width: 86%;
+    }
+
+    .fields input {
+        width: 100%;
+        padding: 12px;
+        border-radius: 4px;
+        border: 1px solid;
+    }
+
+    .fields button {
+        margin-top: 5px;
+        width: 100%;
+        padding: 12px;
+        border-radius: 5px;
+        background: #1DB954;
+        box-shadow: 0px 4px 10px rgba(3, 3, 3, 0.1);
+        border: 0;
+        color: white;
+        font-weight: bolder;
+    }
+
+    .fields button:hover {
+        cursor: pointer;
+        background: linear-gradient(145deg, #7eec76, #68d161);
+        box-shadow: 1px 1px 20px -1px #73c76d inset, 1px 1px 20px -1px #9bff93;
+    }
+
+    .otherOption {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .otherOption button {
+        margin-top: 5px;
+        width: 35%;
+        padding: 10px;
+        border-radius: 5px;
+        background: #1DB954;
+        box-shadow: 0px 4px 10px rgba(3, 3, 3, 0.1);
+        border: 0;
+        color: #fff;
+        font-weight: bolder;
+        font-size: 16px;
+    }
+
+    .otherOption button:hover {
+        cursor: pointer;
+        background: linear-gradient(145deg, #7eec76, #68d161);
+        box-shadow: 1px 1px 20px -1px #73c76d inset, 1px 1px 20px -1px #9bff93;
+    }
+
+    .waytoregister {
+        margin-top: 8%;
+        font-size: 11px;
+        width: 85%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+    }
+
+    .forgotPassword {
+        margin-top: 3%;
+        font-size: 9px;
+        width: 85%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        cursor: pointer;
+    }
+
+    .line {
+        width: 92%;
+        height: 1px;
+        background-color: white;
+    }
+
+    .or {
+        position: relative;
+        top: -3.5%;
+        display: flex;
+        align-items: center;
+        background: #121212;
+        font-size: 20px;
+    }
+
+    /* welcome page */
+    .getStarted {
+        margin-top: 5px;
+        width: 50%;
+        padding: 15px;
+        border-radius: 5px;
+        background: #1DB954;
+        box-shadow: 0px 4px 10px rgba(3, 3, 3, 0.1);
+        border: 0;
+        color: #fff;
+        font-weight: bolder;
+        font-size: 16px;
+    }
+
+    .welcome img {
+        width: 120%;
+    }
+
+    .welcome {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        overflow: hidden;
+    }
+
+    .welcome span {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .welcome span h1 {
+        margin-bottom: 0;
+    }
+
+    .loader {}
+
+    /* desinig home page */
+    .homeContainer {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .contentSection {
+        overflow-y: scroll;
+        display: flex;
+        flex-direction: column;
+        height: 78%;
+        width: 100%;
+    }
+
+    .bottomNavigator {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        z-index: 1000;
+    }
+
+    .PlayerControllers {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        padding: 5px;
+        background-color: rgb(36, 32, 32);
+    }
+
+    .songDescription {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+        width: 60%;
+        background-color: rgb(36, 32, 32);
+    }
+
+    .SongName {
+        display: flex;
+        align-items: baseline;
+        flex-direction: column;
+        justify-content: center;
+        font-size: 16px;
+        margin-left: 3%;
+        background-color: rgb(36, 32, 32);
+    }
+
+    .SongName h4 {
+        margin-top: 0;
+        margin-bottom: 0;
+        background-color: rgb(36, 32, 32);
+        font-size: 63%;
+    }
+
+    .SongName h5 {
+        margin-top: 1px;
+        margin-bottom: 5%;
+        background-color: rgb(36, 32, 32);
+        font-weight: 100;
+        font-size: 59%;
+    }
+
+    .songDescription img {
+        width: 19%;
+        margin-left: 2%;
+        border-radius: 5px;
+        background-color: rgb(36, 32, 32);
+    }
+
+    .controllers {
+        background-color: rgb(36, 32, 32);
+        width: 35%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        gap: 11%;
+        padding-right: 4%;
+        font-size: 1.3rem;
+    }
+
+    .navigationBar {
+        background: linear-gradient(to bottom, transparent, #121212);
+        width: 100%;
+    }
+
+    .navigationBar ul {
+        display: flex;
+        flex-direction: row;
+        gap: 5%;
+        margin-left: -9%;
+    }
+
+    .navigationBar ul li {
+        list-style: none;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 27%;
+        font-weight: bold;
+    }
+
+    .navigationBar ul li span {
+        font-size: 11px;
+        font-weight: 100;
+    }
+
+    .navigationBar ul li img {
+        width: 2%;
+    }
+
+    /* desining search page  */
+    .discoverConatainer {
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        align-items: center;
+    }
+
+    .dicoverNav {
+        display: flex;
+        align-items: center;
+        gap: 24%;
+        justify-content: flex-end;
+        padding: 0 17px;
+        box-shadow: 2px 2px 10px -1px rgb(55 51 51), inset 0px -4px 10px -1px rgb(33 31 31);
+    }
+
+    .dicoverNav span {
+        font-size: 2em;
+        border-radius: 50%;
+    }
+
+    .dicoverNav span:hover {
+        transform: scale(0.8);
+        cursor: pointer;
+    }
+
+    .UserDp {
+        border-radius: 50%;
+        width: 10%;
+    }
+
+    .searchBar {
+        width: 90%;
+        display: flex;
+        align-items: center;
+        background-color: white;
+        margin-top: 2%;
+        color: black;
+        padding-left: 3%;
+        border-radius: 7px
+    }
+
+    .searchBar input {
+        padding: 10px;
+        border-radius: 5px;
+        border: 0;
+        color: black;
+        width: 80%;
+        background-color: transparent;
+    }
+
+    .searchBar input:focus {
+        outline: none;
+        border: 0;
+    }
+
+    /*community Page*/
+    .exploreMore {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 5px;
+        overflow: hidden;
+        height: 100%;
+    }
+
+    .ExploreHeading {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        margin-top: 5%;
+    }
+
+    .ExploreHeading h4 {
+        margin: 0;
+        margin-left: 1.7%;
+    }
+
+    .Post {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 5%;
+        background-color: rgb(97, 209, 84);
+        width: 96%;
+        height: 66vh;
+        border-radius: 10px;
+    }
+
+    .postUser {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        background-color: rgb(97, 209, 84);
+        margin: 2%;
+    }
+
+    .postImg {
+        width: 95%;
+        background-color: gray;
+        height: 77%;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 15px;
+        border-bottom-left-radius: 15px;
+        overflow: hidden;
+    }
+
+    .postUser h5 {
+        margin: 0;
+        color: black;
+        background-color: rgb(97, 209, 84);
+    }
+
+    .postStatus {
+        padding: 5px;
+        display: flex;
+        flex-direction: column;
+        color: #121212;
+        background-color: rgb(97, 209, 84);
+        width: 92%;
+    }
+
+    .intreaction {
+        padding-left: 4%;
+        display: flex;
+        gap: 8px;
+        background-color: rgb(97, 209, 84);
+        font-size: 1.7em;
+    }
+
+    .caption {
+        background-color: rgb(97, 209, 84);
+        font-size: 10px;
+        color: rgb(255, 255, 255);
+
+    }
+
+    .postDate {
+        background-color: rgb(97, 209, 84);
+        font-size: 8px;
+        color: rgb(255, 255, 255);
+        margin-top: 2%;
+
+    }
+
+    /* navbar designig */
+    .navbarComponent {
+        display: flex;
+        align-items: center;
+        margin: 0;
+        width: 100%;
+    }
+
+    .navbarComponent ul {
+        display: flex;
+        margin: 0;
+        gap: 5%;
+        list-style: none;
+        width: 100%;
+        padding: 10px;
+        align-items: center;
+
+    }
+
+    .logingButton {
+        background-color: #1DB954;
+        display: flex;
+        flex-direction: row;
+        width: 6em;
+        height: 2em;
+        align-items: center;
+        border-radius: 9px;
+        justify-content: center;
+        font-size: 12px;
+        padding: 5px;
+        margin-right: 2%;
+        font-weight: bold;
+        &:hover{
+            background-color: rgb(36, 192, 104);
+            cursor: pointer;
+        }
+    }
+
+    .UserName {
+        background-color: red;
+        padding: 10px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 1em;
+        width: 1em;
+        color: #121212;
+        font-weight: bold;
+
+        &:hover {
+            background-color: rgb(242, 42, 42);
+            cursor: pointer;
+        }
+    }
+
+    .navbarComponent ul li {
+        background-color: #1DB954;
+        border-radius: 10px;
+        width: 10%;
+        padding: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 12px;
+        font-weight: 600;
+
+        &:hover {
+            background-color: rgb(36, 192, 104);
+            cursor: pointer;
+        }
+
+    }
+
+    /* song page desinig */
+    .songComponent {
+        display: flex;
+        flex-direction: column;
+        margin-left: 4%;
+    }
+
+    .songComponent p {
+        font-weight: bold;
+    }
+
+    .RecentListen {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        /* Ensures the container takes full width */
+    }
+
+    .RecentListen ul {
+        display: flex;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        /* width: 98%; */
+        overflow-x: auto;
+        /* Enables horizontal scrolling */
+        gap: 15px;
+        /* Adjust spacing between list items */
+        padding: 13px
+    }
+
+    .RecentListen ul li {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 10px;
+        background-color: #302f2f;
+        min-width: 30%;
+        max-width: 30%;
+        border-radius: 5px;
+
+    }
+
+    .RecentListen ul li span {
+        background-color: transparent;
+        margin-top: 1%;
+        display: flex;
+        flex-direction: column;
+        width: 87%;
+        padding: 5px;
+        align-items: flex-start;
+        justify-content: center;
+    }
+
+    .SongBanner {
+        width: 100%;
+        border-radius: 5px;
+        background-color: rgb(36, 32, 32);
+    }
+
+    .songName {
+        background-color: transparent;
+        margin: 0;
+    }
+
+    .artist {
+        font-size: 7px;
+        font-weight: 600;
+        margin: 0;
+        background-color: transparent;
+    }
+
+}
